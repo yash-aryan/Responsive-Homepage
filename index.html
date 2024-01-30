@@ -7,29 +7,63 @@
 		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
-		<header id="header-container">
+		<header class="header-container">
 			<h1>Portfolio</h1>
 		</header>
-		<main id="main-content">
-			<section id="about-me-section">
-				<h2>About Me</h2>
-				<div class="about-me-image">
-					<h3>Sir Pouncealot</h3>
-					<div class="placeholder-img"></div>
-				</div>
-				<div class="about-me">
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam
-						doloribus nulla, error ipsa in odit a minus exercitationem inventore?
+		<main class="main-content">
+			<section class="about-section">
+				<figure class="figure-container">
+					<div class="round-corners">
+						<picture>
+							<source
+								media="(min-width: 700px)"
+								srcset="
+									./images/curious-cat-320w.jpg 320w,
+									./images/curious-cat-640w.jpg 640w
+								"
+							/>
+							<img
+								src="./images/curious-cat-zoomed-320w.jpg"
+								alt=""
+								srcset="
+									./images/curious-cat-zoomed-320w.jpg 320w,
+									./images/curious-cat-zoomed-640w.jpg 640w
+								"
+								class="figure-img"
+							/>
+						</picture>
+						<div class="caption-container">
+							<figcaption class="figure-caption">Sir Pouncealot</figcaption>
+						</div>
+					</div>
+				</figure>
+				<h2 class="section-title">About Me</h2>
+				<div class="about-container">
+					<p class="about-details">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore in, dolorem
+						porro delectus exercitationem ratione molestiae error voluptates, non illo
+						totam quo dolorum architecto hic eveniet praesentium, voluptatum minus
+						neque!
 					</p>
 					<ul class="socials">
-						<li><div class="placeholder-icon"></div></li>
-						<li><div class="placeholder-icon"></div></li>
-						<li><div class="placeholder-icon"></div></li>
+						<li>
+							<a href="#">
+								<img src="./icons/icons8-github.svg" alt="Github" class="icon" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img
+									src="./icons/icons8-linkedin.svg"
+									alt="Linkedin"
+									class="icon"
+								/>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</section>
-			<section id="my-work-section">
+			<section class="my-work-section">
 				<h2>My Work</h2>
 				<div class="flex-tiles">
 					<article class="tile">
@@ -130,9 +164,9 @@
 					</article>
 				</div>
 			</section>
-			<section id="contact-me-section">
+			<section class="contact-section">
 				<h2>Contact Me</h2>
-				<div class="contact-me-details">
+				<div class="contact-details">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, vero.</p>
 					<address>
 						<div class="contact-link">
@@ -153,5 +187,11 @@
 				<div class="placeholder-img"></div>
 			</section>
 		</main>
+		<footer>
+			<div class="icon-attibution">
+				<a target="_blank" href="https://icons8.com/icon/63777/github">GitHub</a> icon by
+				<a target="_blank" href="https://icons8.com">Icons8</a>
+			</div>
+		</footer>
 	</body>
 </html>
