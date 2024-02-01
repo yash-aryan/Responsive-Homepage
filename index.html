@@ -8,36 +8,34 @@
 	</head>
 	<body>
 		<header class="header-container">
-			<h1>Portfolio</h1>
+			<h1 class="topmost-header smallcaps">Portfolio</h1>
 		</header>
 		<main class="main-content">
-			<section class="about-section">
-				<figure class="figure-container">
-					<div class="round-corners">
-						<picture>
-							<source
-								media="(min-width: 700px)"
-								srcset="
-									./images/curious-cat-320w.jpg 320w,
-									./images/curious-cat-640w.jpg 640w
-								"
-							/>
-							<img
-								src="./images/curious-cat-zoomed-320w.jpg"
-								alt=""
-								srcset="
-									./images/curious-cat-zoomed-320w.jpg 320w,
-									./images/curious-cat-zoomed-640w.jpg 640w
-								"
-								class="figure-img"
-							/>
-						</picture>
-						<div class="caption-container">
-							<figcaption class="figure-caption">Sir Pouncealot</figcaption>
-						</div>
+			<section id="about" class="section">
+				<h2 class="section-title">About Me</h2>
+				<figure class="figure-container round-corners">
+					<picture>
+						<source
+							media="(min-width: 700px)"
+							srcset="
+								./images/curious-cat-320w.jpg 320w,
+								./images/curious-cat-640w.jpg 640w
+							"
+						/>
+						<img
+							src="./images/curious-cat-zoomed-320w.jpg"
+							alt=""
+							srcset="
+								./images/curious-cat-zoomed-320w.jpg 320w,
+								./images/curious-cat-zoomed-640w.jpg 640w
+							"
+							class="figure-img"
+						/>
+					</picture>
+					<div class="caption-container">
+						<figcaption class="figure-caption smallcaps">Sir Pouncealot</figcaption>
 					</div>
 				</figure>
-				<h2 class="section-title">About Me</h2>
 				<div class="about-container">
 					<p class="about-details">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore in, dolorem
@@ -63,103 +61,181 @@
 					</ul>
 				</div>
 			</section>
-			<section class="my-work-section">
-				<h2>My Work</h2>
-				<div class="flex-tiles">
+			<section id="works" class="section">
+				<h2 class="section-title">My Work</h2>
+				<div class="responsive-tiles">
 					<article class="tile">
-						<div class="tile-img"></div>
+						<a href="#" class="tile-link">
+							<figure class="figure-container round-corners">
+								<picture>
+									<img
+										src="https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project"
+										alt=""
+										srcset="
+											https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project 320w,
+											https://placehold.co/640x480/ffdab9/7a3349?text=Sample+Project 640w
+										"
+										class="figure-img"
+									/>
+								</picture>
+								<div class="caption-container">
+									<figcaption class="figure-caption smallcaps">
+										View Github
+									</figcaption>
+								</div>
+							</figure>
+						</a>
 						<div class="tile-caption">
-							<div class="tile-caption__header">
-								<h3>Project name</h3>
-								<ul class="project-links">
-									<li><div class="placeholder-icon"></div></li>
-									<li><div class="placeholder-icon"></div></li>
-								</ul>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-									quibusdam.
-								</p>
-							</div>
+							<h3 class="tile-caption__header">Project name</h3>
+							<p class="tile-caption__desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+								quibusdam.
+							</p>
 						</div>
 					</article>
 					<article class="tile">
-						<div class="tile-img"></div>
+						<a href="#" class="tile-link">
+							<figure class="figure-container round-corners">
+								<picture>
+									<img
+										src="https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project"
+										alt=""
+										srcset="
+											https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project 320w,
+											https://placehold.co/640x480/ffdab9/7a3349?text=Sample+Project 640w
+										"
+										class="figure-img"
+									/>
+								</picture>
+								<div class="caption-container">
+									<figcaption class="figure-caption smallcaps">
+										View Github
+									</figcaption>
+								</div>
+							</figure>
+						</a>
 						<div class="tile-caption">
-							<div class="tile-caption__header">
-								<h3>Project name</h3>
-								<ul class="project-links">
-									<li><div class="placeholder-icon"></div></li>
-									<li><div class="placeholder-icon"></div></li>
-								</ul>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-									quibusdam.
-								</p>
-							</div>
+							<h3 class="tile-caption__header">Project name</h3>
+							<p class="tile-caption__desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+								quibusdam.
+							</p>
 						</div>
 					</article>
 					<article class="tile">
-						<div class="tile-img"></div>
+						<a href="#" class="tile-link">
+							<figure class="figure-container round-corners">
+								<picture>
+									<img
+										src="https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project"
+										alt=""
+										srcset="
+											https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project 320w,
+											https://placehold.co/640x480/ffdab9/7a3349?text=Sample+Project 640w
+										"
+										class="figure-img"
+									/>
+								</picture>
+								<div class="caption-container">
+									<figcaption class="figure-caption smallcaps">
+										View Github
+									</figcaption>
+								</div>
+							</figure>
+						</a>
 						<div class="tile-caption">
-							<div class="tile-caption__header">
-								<h3>Project name</h3>
-								<ul class="project-links">
-									<li><div class="placeholder-icon"></div></li>
-									<li><div class="placeholder-icon"></div></li>
-								</ul>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-									quibusdam.
-								</p>
-							</div>
+							<h3 class="tile-caption__header">Project name</h3>
+							<p class="tile-caption__desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+								quibusdam.
+							</p>
 						</div>
 					</article>
 					<article class="tile">
-						<div class="tile-img"></div>
+						<a href="#" class="tile-link">
+							<figure class="figure-container round-corners">
+								<picture>
+									<img
+										src="https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project"
+										alt=""
+										srcset="
+											https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project 320w,
+											https://placehold.co/640x480/ffdab9/7a3349?text=Sample+Project 640w
+										"
+										class="figure-img"
+									/>
+								</picture>
+								<div class="caption-container">
+									<figcaption class="figure-caption smallcaps">
+										View Github
+									</figcaption>
+								</div>
+							</figure>
+						</a>
 						<div class="tile-caption">
-							<div class="tile-caption__header">
-								<h3>Project name</h3>
-								<ul class="project-links">
-									<li><div class="placeholder-icon"></div></li>
-									<li><div class="placeholder-icon"></div></li>
-								</ul>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-									quibusdam.
-								</p>
-							</div>
+							<h3 class="tile-caption__header">Project name</h3>
+							<p class="tile-caption__desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+								quibusdam.
+							</p>
 						</div>
 					</article>
 					<article class="tile">
-						<div class="tile-img"></div>
+						<a href="#" class="tile-link">
+							<figure class="figure-container round-corners">
+								<picture>
+									<img
+										src="https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project"
+										alt=""
+										srcset="
+											https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project 320w,
+											https://placehold.co/640x480/ffdab9/7a3349?text=Sample+Project 640w
+										"
+										class="figure-img"
+									/>
+								</picture>
+								<div class="caption-container">
+									<figcaption class="figure-caption smallcaps">
+										View Github
+									</figcaption>
+								</div>
+							</figure>
+						</a>
 						<div class="tile-caption">
-							<div class="tile-caption__header">
-								<h3>Project name</h3>
-								<ul class="project-links">
-									<li><div class="placeholder-icon"></div></li>
-									<li><div class="placeholder-icon"></div></li>
-								</ul>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-									quibusdam.
-								</p>
-							</div>
+							<h3 class="tile-caption__header">Project name</h3>
+							<p class="tile-caption__desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+								quibusdam.
+							</p>
 						</div>
 					</article>
 					<article class="tile">
-						<div class="tile-img"></div>
+						<a href="#" class="tile-link">
+							<figure class="figure-container round-corners">
+								<picture>
+									<img
+										src="https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project"
+										alt=""
+										srcset="
+											https://placehold.co/320x240/ffdab9/7a3349?text=Sample+Project 320w,
+											https://placehold.co/640x480/ffdab9/7a3349?text=Sample+Project 640w
+										"
+										class="figure-img"
+									/>
+								</picture>
+								<div class="caption-container">
+									<figcaption class="figure-caption smallcaps">
+										View Github
+									</figcaption>
+								</div>
+							</figure>
+						</a>
 						<div class="tile-caption">
-							<div class="tile-caption__header">
-								<h3>Project name</h3>
-								<ul class="project-links">
-									<li><div class="placeholder-icon"></div></li>
-									<li><div class="placeholder-icon"></div></li>
-								</ul>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-									quibusdam.
-								</p>
-							</div>
+							<h3 class="tile-caption__header">Project name</h3>
+							<p class="tile-caption__desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+								quibusdam.
+							</p>
 						</div>
 					</article>
 				</div>
